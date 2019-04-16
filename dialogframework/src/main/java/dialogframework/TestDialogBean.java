@@ -36,6 +36,7 @@ public class TestDialogBean {
 		PrimeFaces.current().dialog().closeDynamic(null);
 		FacesMessage msg = new FacesMessage("Successful", "growl working ");
 		FacesContext.getCurrentInstance().addMessage(null, msg);
+		PrimeFaces.current().ajax().update("growl");
 
 	}
 }
