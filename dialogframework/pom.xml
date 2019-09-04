@@ -19,12 +19,59 @@
     <artifactId>primefaces</artifactId>
     <version>6.2</version>
 </dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish/javax.el -->
+<dependency>
+    <groupId>org.glassfish</groupId>
+    <artifactId>javax.el</artifactId>
+    <version>3.0.0</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.inject/javax.inject -->
+<dependency>
+    <groupId>javax.inject</groupId>
+    <artifactId>javax.inject</artifactId>
+    <version>1</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-impl -->
+<dependency>
+    <groupId>com.sun.faces</groupId>
+    <artifactId>jsf-impl</artifactId>
+    <version>2.1.2</version>
+</dependency>
+		
 <dependency>
     <groupId>javax.faces</groupId>
     <artifactId>jsf-api</artifactId>
     <version>2.0</version>
     <scope>provided</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.openpnp/opencv -->
+<dependency>
+    <groupId>org.openpnp</groupId>
+    <artifactId>opencv</artifactId>
+    <version>3.2.0-0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/nu.pattern/opencv -->
+<dependency>
+    <groupId>nu.pattern</groupId>
+    <artifactId>opencv</artifactId>
+    <version>2.4.9-5</version>
+</dependency>
+<dependency>  
+    <groupId>net.sourceforge.tess4j</groupId>  
+    <artifactId>tess4j</artifactId>  
+    <version>3.2.1</version>  
+</dependency>
+
+		<dependency>
+			<groupId>com.abbyy</groupId>
+			<artifactId>com.abbyy.FCEngine</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.abbyy</groupId>
+			<artifactId>com.abbyy.FREngine</artifactId>
+			<version>2.0</version>
+		</dependency>
   </dependencies>
   <build>
     <finalName>dialogframework</finalName>
